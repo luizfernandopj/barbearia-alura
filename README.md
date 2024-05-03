@@ -7,6 +7,8 @@
     </head>
 
     <body>
+        <img src="banner.jpg">
+        
         <h1>Sobre a Barbearia Alura</h1>
 
         <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
@@ -18,18 +20,3 @@
         O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
     </body>
 </html>
-body {
-    background: #CCCCCC;
-}
-
-h1 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-em strong {
-    color: #FF0000
-}
