@@ -2,21 +2,49 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Barbearia Alura</title>
+        <title>barbearia</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <img src="banner.jpg">
-        
-        <h1>Sobre a Barbearia Alura</h1>
+        <header>
+<h1 class="titulo-princ">Barbearia Alura</h1>
+        </header>
+        <img  id="banner" src="banner.jpg">
+        <div class="principal">
+            <h2 class="titulo-central">Sobre a barbearia alura </h2>
 
-        <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
-        Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-        <p style="font-size: 20px"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            <p>localizada no coracao da cidade a<strong> barbearia Alura</strong> traz para o mercadoo que ha de melhor para o seu cabelo e barba.
+            Fundada em 2019, a barbearia Alura ja e destaque na cidade e conquista novos clientea cada dia</p>
 
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-        O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+
+            <p>nossa missao e : <strong id="missao"><em>"Proporcionar auto-estima e qualidade de vida aos clientes"</em></strong></p>
+
+
+            <p>Oferecemos profissionais experiente e antenados as mudancas no mundo da moda.
+            O atedimento possui padrao de excelencia e agilidade, garantindo qualidade e satisfacao do nosso cliente </p>
+        </div>
+        <div class="beneficios">
+            <h3 class="titulo-central">Beneficios</h3>
+
+
+            <ul>
+                <li class="itens">Atendimento aos clientes</li>
+                <li class="itens">Localizacao</li>
+                <li class="itens">Espaco e lazer</li>
+                <li class="itens">Profissionais qualificados</li>
+            </ul>
+            <img src="beneficios.jpg" class="beneficiosimg">
+        </div>
+
+
     </body>
 </html>
+
+
+
+
+
+
+
